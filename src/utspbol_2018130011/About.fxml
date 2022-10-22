@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2018130011.AboutController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TitledPane animated="false" layoutX="-14.0" layoutY="-11.0" prefHeight="558.0" prefWidth="893.0" text="About Page">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="529.0" fitWidth="903.0" layoutY="-1.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@background.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="750.0" layoutY="467.0" mnemonicParsing="false" onAction="#backButton" prefHeight="31.0" prefWidth="84.0" text="Back">
+                           <effect>
+                              <ColorAdjust brightness="-0.44" hue="-0.54" saturation="0.1" />
+                           </effect>
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="158.0" fitWidth="294.0" layoutY="368.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@BLOG-LEARN-ENGLISH.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="339.0" layoutY="36.0" prefHeight="415.0" prefWidth="442.0" text="Aplikasi ini dapat membantu&#10;siswa dan siswi belajar dan latihan Bahasa Inggris. &#10;Mulai dari&#10;vocabulary, basic grammar, dan tenses.&#10;Para murid juga bisa melihat score mereka untuk&#10;memberi motivasi" wrapText="true">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </TextArea>
+                        <ImageView fitHeight="196.0" fitWidth="411.0" layoutX="-6.0" layoutY="-8.0" opacity="0.76" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@39717.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

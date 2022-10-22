@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="559.0" prefWidth="891.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2018130011.ScoreController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TitledPane animated="false" layoutX="-14.0" layoutY="-10.0" prefHeight="558.0" prefWidth="893.0" text="Score Board">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="529.0" fitWidth="903.0" layoutX="-5.0" layoutY="-2.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@background.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="752.0" layoutY="451.0" mnemonicParsing="false" onAction="#backButton" prefHeight="31.0" prefWidth="84.0" text="Back">
+                           <effect>
+                              <ColorAdjust brightness="-0.44" hue="-0.54" saturation="0.1" />
+                           </effect>
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Button>
+                        <TableView fx:id="scoreTbl" layoutX="83.0" layoutY="41.0" prefHeight="384.0" prefWidth="712.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="C1" />
+                            <TableColumn prefWidth="75.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

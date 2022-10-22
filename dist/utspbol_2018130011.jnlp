@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="utspbol_2018130011.jnlp">
+  <information>
+    <title>utspbol_2018130011</title>
+    <vendor>tasya</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\mysql-connector.jar" size="397032" download="eager" />
+    <jar href="utspbol_2018130011.jar" size="3589455" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="utspbol_2018130011.Utspbol_2018130011"  name="utspbol_2018130011" />
+  <update check="always"/>
+</jnlp>

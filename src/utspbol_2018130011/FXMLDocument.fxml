@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="558.0" prefWidth="882.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utspbol_2018130011.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TitledPane animated="false" layoutX="-7.0" prefHeight="558.0" prefWidth="893.0" text="E-learning Bahasa Inggris">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="376.0" fitWidth="571.0" layoutX="157.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@EnglishLogo.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="411.0" layoutY="455.0" mnemonicParsing="false" onAction="#handleButtonAction" opacity="0.96" text="START" textOverrun="CENTER_ELLIPSIS">
+                     <effect>
+                        <Lighting bumpInput="$null">
+                           <light>
+                              <Light.Distant color="#61c8e4" />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#0b18b0" fontSmoothingType="LCD" layoutX="283.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to E-learning Learn English " textAlignment="CENTER" wrappingWidth="340.00927734375">
+                     <effect>
+                        <Blend>
+                           <topInput>
+                              <InnerShadow />
+                           </topInput>
+                        </Blend>
+                     </effect>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+    </children>
+</AnchorPane>
